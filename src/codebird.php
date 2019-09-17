@@ -102,6 +102,7 @@ class Codebird
       'ads/accounts/:account_id/authenticated_user_access',
       'ads/accounts/:account_id/campaigns',
       'ads/accounts/:account_id/campaigns/:campaign_id',
+	    'ads/accounts/:account_id/cards/all',
       'ads/accounts/:account_id/cards/app_download',
       'ads/accounts/:account_id/cards/app_download/:card_id',
       'ads/accounts/:account_id/cards/image_app_download',
@@ -1634,6 +1635,7 @@ class Codebird
         'name' => [
           'ads/accounts/:account_id/app_lists',
           'ads/accounts/:account_id/campaigns',
+		'ads/accounts/:account_id/cards/all',
           'ads/accounts/:account_id/cards/app_download',
           'ads/accounts/:account_id/cards/image_app_download',
           'ads/accounts/:account_id/cards/image_conversation',
